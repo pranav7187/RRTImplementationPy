@@ -75,6 +75,7 @@ def traverseNode(point, node):
         if current_distance<distance :
             distance = current_distance
             nearestNode = node
+            hello
 
     '''
     current_distance = math.sqrt((node.x - point[0]) ** 2 + (node.y - point[1]) ** 2)
